@@ -1,14 +1,13 @@
 
 Smart Class Planning Tool
 
-
 Table of Contents:
 
-•	Purpose
-•	Prerequisites
-•	Download Steps
-•	Build/Configuration/Installation/Deployment
-•	Usage
+•Purpose
+•Prerequisites
+•Download Steps
+•Build/Configuration/Installation/Deployment
+•Usage
 
 (1)	**Purpose**:
 The purpose of this project is to design and implement a smart class planning tool, which particularly works on scheduling courses across multiple semesters to facilitate timely graduation, manually planning demands substantial dedication and resources from both students and faculty members. So, our smart class advising tool can be executed on Windows, Linux, etc. to generate an efficient class plan for students to get graduate. It checks for any pre-requisite courses and later produces an Excel document containing a 	semester-wise list of recommended courses to graduate efficiently.
@@ -49,12 +48,10 @@ Input 2 -  contains a pre-requisite graph. We are using a NetworkX python librar
 Input-3 is a pdf file containing information about the class schedule informing which courses will be offered in different semesters such as Fall, Summer, and Spring.
 ii)	Run the Executable file advising_home through the command line using the below steps.
      i.	Open the command prompt and navigate to the project directory using the “cd” command.
-     ii.	execute the below script:
+     ii. execute the below script:
         **start advising_home.exe “full path of input sample file” “full path of  pre-	requisite file” “full path of class schedule”**
-     iii.	After executing the above command, the Excel file will be generated in the same directory where the input1 is located.
+     iii. After executing the above command, the Excel file will be generated in the same directory where the input1 is located.
 
 iii)	The tool will analyze the inputs and generate the recommended graduation plan.
 iv)	The output is obtained in the form of Excel which has different courses scheduled across all the semesters in the project directory.
 
-
-![image](https://github.com/kasi1256/SmartClassPlanningTool/assets/123590822/3f8a5abf-61b0-4413-80f7-14708837f29c)
